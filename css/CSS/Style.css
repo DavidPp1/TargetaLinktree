@@ -1,0 +1,115 @@
+/*Resetear estilos y márgenes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #2b2b2bbc;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta {
+    background-color: rgba(19, 16, 16, 0.626);
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 2dvb;
+    border-width: 1cap;
+}
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-style: groove;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+p {
+    color: white;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.enlaces a {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: groove;
+}
+
+
+.enlaces a:hover {
+    background-color: rgba(16, 17, 32, 0.601);
+}
+
+
+.redes a {
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.8s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.redes a:hover {
+    transform: scale(1.5);
+    
+}
+.contacto a{
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    transition: transform 0.8s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.contacto a:hover {
+    transform: scale(1.2);
+    background-color: rgba(16, 17, 32, 0.601);
+    opacity: 1;
+    cursor: pointer;
+    transform: (3.9);
+    transition: pacity 2.15s ease, transform 2.15s ease;
+    border-style: groove;
+}
+
+
